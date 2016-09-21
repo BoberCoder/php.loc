@@ -1,0 +1,41 @@
+#header {
+    height: 150px;
+    position: relative;
+}
+
+body {
+    margin: 0 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#menu ul li {
+    float: left;
+    list-style-type: none;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 15px 100px;
+    text-decoration: none;
+    color:black; 
+    -webkit-transition: all 0.5s;
+    -webkit-transition: 0.5s 0.1s;
+}
+
+#menu ul {
+    margin: 0;
+}
+
+#menu {
+    position: absolute;
+    left: 220px;
+}
+
+#menu ul li a:hover{
+   -webkit-transform:scale(1.1);
+   background-color: green;
+   color:white;
+}
