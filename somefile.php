@@ -1,8 +1,11 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+require_once ('E:\WEB\Server\OpenServer\domains\test.local\newFolder\Auto.php');
+
+$BMWX5 = new auto;
+
+$BMWX5->brand = "BMW";
+$BMWX5->model = "X5";
+
+var_dump($BMWX5);
 
