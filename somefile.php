@@ -9,3 +9,9 @@ $BMWX5->model = "X5";
 
 var_dump($BMWX5);
 
+$GTR = new auto;
+
+$GTR->brand = "Nissan";
+$GTR->model = "GTR";
+
+var_dump($GTR);
