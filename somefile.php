@@ -7,11 +7,18 @@ $BMWX5 = new auto;
 $BMWX5->brand = "BMW";
 $BMWX5->model = "X5";
 
-var_dump($BMWX5);
 
 $GTR = new auto;
 
 $GTR->brand = "Nissan";
 $GTR->model = "GTR";
+?>
+<pre>
+<?php
+print_r($GTR);
+print_r($BMWX5);
+?>
+</pre>
 
-var_dump($GTR);
+<?php
+Auto::service();
