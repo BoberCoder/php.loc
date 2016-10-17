@@ -36,7 +36,7 @@ for ($i = 0; $i<=$k; $i++)
         {
             $min = $j;
         }
-        
+    }   
     $key = $A[$i];
     $A[$i] = $A[$min];
     $A[$min] = $key;
@@ -44,12 +44,12 @@ for ($i = 0; $i<=$k; $i++)
     if($max == $i) 
     {
         $max = $min;
+    }
         $key = $A[X-$i+1];
         $A[X-$i+1] = $A[$max];
         $A[$max] = $key;
-    }
     
-    }
+    
 }
 
 for ($i = 0; $i<=X; $i++) 
